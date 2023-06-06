@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <script async src="index.js"></script>
+    <style>
+        body{
+            margin: 0px;
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .img{
+            text-align: center;
+        }
+        .img img{
+            height: 70vh;
+            width: 75%;
+            background-size: cover;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+        }
+        .btn{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: 2px solid grey ;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        #white{
+            background-color: white;
+        }
+        #aqua{
+            background-color: aqua;
+        }
+        #violet{
+            background-color: #ce9aff;
+        }
+        #black{
+            background-color: black;
+        }
+        #color-switcher{
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor = color;
+
+            let txt = document.getElementsByClassName("text");
+            if(color == "#000000"){
+                for(let elm of txt){
+                    elm.style.color = "white";
+                }
+            }
+            else{
+                for(let elm of txt){
+                    elm.style.color = "black";
+                }
+            }
+        }
+    </script>
+
+
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+    <h1>About Us</h1>
+    <div class="img">
+    <img src="/image/about_us.png" alt="">
+</div>
+
+<button>Change color (white to green)</button>
+<button>Change color (white to blue)</button>
+
+
+    <p class="text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, mollitia voluptatem quaerat at eaque totam nisi
+    quidem ipsam facilis quis incidunt ad recusandae sint maiores cum quia. Officiis dicta exercitationem aliquid libero
+    tempore reprehenderit hic rem est assumenda quos. Facere debitis in odit magni nulla! Nihil reprehenderit reiciendis
+    ratione rerum odit, quae doloremque quia culpa aut dolore nam. Doloremque, aspernatur. Quas sed cupiditate tempore
+    dicta odit voluptatibus sit aliquid tenetur deserunt, rerum obcaecati blanditiis debitis quod quae inventore ipsa
+    delectus laborum aperiam itaque deleniti? Illum, provident sit? Sint accusantium et autem officiis ad atque, dicta
+    voluptatem ipsum possimus harum recusandae voluptates velit laboriosam provident voluptatibus deleniti porro nam rem
+    consectetur corporis! Exercitationem ducimus ex incidunt! Voluptas, deserunt hic in corrupti qui praesentium
+    doloribus rem atque unde optio enim nesciunt accusamus earum nobis quasi porro blanditiis fuga cumque beatae
+    officiis laboriosam. Ducimus fuga deserunt quo nobis dolorum eos voluptas perspiciatis facere modi similique
+    molestiae placeat, et incidunt esse perferendis eius rerum tempora impedit voluptatum at saepe inventore. Totam
+    harum necessitatibus consequatur unde consectetur? Officia neque quam animi nihil deleniti quo perspiciatis
+    voluptates unde dolor? Ducimus, a accusantium, ratione sapiente voluptatibus quod odio adipisci, alias consequatur
+    nostrum iure sit ipsa veritatis sequi. Iusto deleniti corporis tempore eaque, vitae eveniet saepe, facere eligendi
+    repudiandae vero dolore voluptate pariatur debitis iste magnam magni assumenda nisi porro? Architecto ducimus sint
+    ad ipsam! Quam, ratione. Animi repudiandae facere, quia dignissimos quam tempora aut autem ipsum quasi qui quod
+    consequatur laborum dolores soluta veniam veritatis rem earum maiores labore. Dolorum quo, nostrum doloremque quae
+    minima cumque officia velit unde quos delectus veritatis quisquam distinctio qui ab perspiciatis debitis incidunt
+    ipsam harum, esse ea error adipisci. Excepturi est exercitationem provident, cupiditate placeat, rerum autem veniam
+    ad deleniti magnam, facilis eveniet veritatis! Perspiciatis illo animi corrupti, quod amet inventore quasi possimus
+    dolore laboriosam fugit, fugiat architecto quo repellendus cum ipsam vero. Suscipit, mollitia atque porro, vel
+    maxime unde tenetur magni quo aperiam nobis facilis. Dolorem, totam neque nesciunt voluptatum sequi doloribus qui
+    minus iure velit. Cum, laudantium. Voluptas quod placeat in accusamus, asperiores beatae quos commodi pariatur sequi
+    sit alias sed enim eos! Beatae, id doloremque! Distinctio tempora excepturi aut! Ullam totam nulla cum fugiat
+    numquam quas tenetur reprehenderit aspernatur eaque repudiandae, molestias odio harum, provident non eos explicabo
+    placeat pariatur laborum! Eaque impedit obcaecati dolore est ut. Unde, eaque, assumenda possimus ullam at nam rem
+    labore numquam doloremque error blanditiis ad totam, quia odit qui. Consectetur accusantium, veniam praesentium
+    dicta magnam facere incidunt soluta. Suscipit quo tenetur hic earum sint dolor nisi atque esse tempora placeat fuga
+    expedita ad sit explicabo non totam vero, provident recusandae, nobis, animi assumenda accusantium neque a nulla.
+    Soluta vero voluptatum incidunt debitis temporibus hic reprehenderit id ipsam consequuntur nesciunt. Sequi quod
+    saepe id quaerat, sapiente ducimus dolor. Tempora et cum dolorem? Quas praesentium ex ullam eaque minus modi. Quae
+    culpa asperiores in ratione debitis, atque magnam obcaecati praesentium quasi laudantium, sequi rem esse tempora
+    nulla et? Dolore mollitia qui nemo quasi distinctio!</p>
+</body>
+
+</html>
